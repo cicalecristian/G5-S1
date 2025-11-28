@@ -46,8 +46,8 @@ main button {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 4vh;
-  color: #25a2c3;
   line-height: 1.5;
+  color: #25a2c3;
 }
 
 .heading.two {
@@ -89,8 +89,38 @@ main button {
   font-size: 1rem;
 }
 
-footer h3 {
-  color: white;
+.three .block {
+  min-width: 300px;
+  max-width: 350px;
+  margin: 40px auto;
+  border: 0.1px solid #ddd;
+  border-radius: 2%;
+}
+
+.three img {
+  display: block;
+  width: 100%;
+}
+
+.three p {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+h3 {
+  color: white !important;
+  padding: 5%;
+}
+
+address a {
+  color: #c8e7f0;
+}
+
+.foott {
+  padding: 10%;
+  margin: 8%;
+  display: inline-block;
+  border-top: 1px solid white;
 }
 
 footer {
